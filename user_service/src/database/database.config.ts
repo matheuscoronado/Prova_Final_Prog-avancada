@@ -4,7 +4,7 @@ import {
   SequelizeModuleOptions,
   SequelizeOptionsFactory,
 } from '@nestjs/sequelize';
-import { User } from '../user/user.entity';
+import { User } from 'src/user/user.entity';
 
 @Injectable()
 export class DatabaseConfig implements SequelizeOptionsFactory {
